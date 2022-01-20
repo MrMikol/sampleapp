@@ -18,7 +18,12 @@ button {
   letter-spacing: .25px;
 }
 
-#increment-btn:hover {
+#decrease-button {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+#increase-button:hover {
   background: #F6F9FE;
   color: #174ea6;
 }

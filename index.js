@@ -7,3 +7,10 @@ function increment() {
     counting.innerText = num
     console.log(num)
 }
+
+function decrease() {
+    minus = counting.innerText
+    minus = minus - 1
+    counting.innerText = minus
+}
+
