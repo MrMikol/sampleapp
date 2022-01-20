@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>App</h1>
+    <header>
+        <h1>Sample App</h1>
+    </header> 
     <table>
         <tr>
           <th>Food</th>
@@ -19,5 +22,12 @@
         </tr>
       </table> 
     <button type="button">DO NOT CLICK</button>
+    <div>
+        <h2 id="count">0</h2>
+        <button id="increase-button" onclick="increment()">Press</button>
+        <button id="decrease-button" onclick="decrease()">Decrease</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
+
