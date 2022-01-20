@@ -14,3 +14,22 @@ function decrease() {
     counting.innerText = minus
 }
 
+
+
+const wrapper=document.querySelector('.wrapper'),
+      form=wrapper.querySelectorAll('.form'),
+      submitInput=form[0].querySelector('input[type="submit"]');
+
+
+
+function createAnime(event){
+    event.preventDefault();
+    var formdata=new FormData(form[0]);
+    alert(formdata.get('anime')+'-'+formdata.get('character'));
+
+}
+
+document.addEventListener('DOMContentLoaded',function(){
+    submitInput.addEventListener('click',createAnime,false);
+},false)
+
