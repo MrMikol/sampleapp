@@ -16,10 +16,16 @@ function decrease() {
 
 
 
-async function createAnime(event){
+const wrapper=document.querySelector('.wrapper'),
+      form=wrapper.querySelectorAll('.form'),
+      submitInput=form[0].querySelector('input[type="submit"]');
+
+
+
+function createAnime(event){
     event.preventDefault();
     var formdata=new FormData(form[0]);
-    alert(formdata.get('name')+'-'+formdata.get('image'));
+    alert(formdata.get('anime')+'-'+formdata.get('character'));
 
 }
 
