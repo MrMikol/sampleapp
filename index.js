@@ -14,3 +14,16 @@ function decrease() {
     counting.innerText = minus
 }
 
+
+
+async function createAnime(event){
+    event.preventDefault();
+    var formdata=new FormData(form[0]);
+    alert(formdata.get('name')+'-'+formdata.get('image'));
+
+}
+
+document.addEventListener('DOMContentLoaded',function(){
+    submitInput.addEventListener('click',createAnime,false);
+},false)
+
