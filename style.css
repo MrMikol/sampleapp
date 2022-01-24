@@ -37,3 +37,14 @@ h2 {
 body {
   text-align: center;
 }
+
+#sample-map {
+  align-items: center;
+  height: 300px;
+  width: 25%;
+
+}
+
+div {
+  align-items: center;
+}
