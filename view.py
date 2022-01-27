@@ -18,7 +18,7 @@ class Anime(db.Model):
 
 
 
-@app.route('/',methods=['POST','GET'])
+@app.route('/list',methods=['POST','GET'])
 def index():
 
   if request.method=='POST':
@@ -28,13 +28,13 @@ def index():
     try:
       db.session.add(newAnime)
       db.session.commit()
-      return redirect('/')
+      return redirect('/list')
     except:
       return "No data found"
  
   else:
     animes=Anime.query.all()
-    return render_template('index.html',animes=animes)
+    return render_template('list.html',animes=animes)
 
 @app.route('/hello')
 def hello():
