@@ -28,7 +28,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
-    background-color: #be9c9c;
+    background-color: #a39797;
   }
   
 
@@ -47,5 +47,5 @@
 
   }
   h1 { text-align: center;
-    background-color:rgb(84, 247, 92);
+    background-color:rgb(144, 221, 148);
 }
