@@ -1,4 +1,4 @@
-from flask import Flask, render_template,request,redirect
+from flask import Flask, render_template,request,redirect,url_for
 from flask_sqlalchemy import SQLAlchemy
 
 app= Flask(__name__)
@@ -16,6 +16,11 @@ class Anime(db.Model):
       return '<Task %r>'%self.id
 
 
+
+
+@app.route('/')
+def mainstuff():
+    return render_template('index.html')
 
 
 @app.route('/list',methods=['POST','GET'])
