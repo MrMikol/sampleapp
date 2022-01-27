@@ -17,13 +17,20 @@
   </div>
 
 
+<div class="row">
 {%for anime in animes%}
-<div class="card">
-    <div class="container">
-      <h4><b>{{anime.anime}}</b></h4>
-      <p>{{anime.image}}</p>
-    </div>
+
+<div class="column">
+  <div class="card">
+    <h3>Card {{anime.id}}</h3>
+    
+    <p>{{anime.anime}}</p>
+    <p>{{anime.image}}</p>
   </div>
+  <br>
+</div>
   {%endfor%}
+
+</div>
 
 {%endblock%}
