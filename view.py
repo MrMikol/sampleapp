@@ -1,4 +1,4 @@
-from flask import Flask, render_template,request,redirect,url_for
+from flask import Flask, render_template,request,redirect,url_for,redirect
 from flask_sqlalchemy import SQLAlchemy
 
 app= Flask(__name__)
@@ -33,7 +33,7 @@ def index():
     try:
       db.session.add(newAnime)
       db.session.commit()
-      return redirect('/list')
+      return redirect(url_for('mainstuff'))
     except:
       return "No data found"
  
