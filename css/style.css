@@ -1,0 +1,83 @@
+#signup-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+#login-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+#SignUp-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+#LogIn-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+header {
+    background-color: lightcoral;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+button {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  color: #3c4043;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+#decrease-button {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+#increase-button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+  
+h2 {
+  margin-top: 20;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+body {
+  text-align: center;
+}
