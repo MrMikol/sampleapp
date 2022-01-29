@@ -5,6 +5,10 @@
 tasks:
   - init: npm install
     command: npm run start
+  - init: pip3 install -r requirements.txt
+    
+
+    
 vscode:
   extensions:
     - dbaeumer.vscode-eslint

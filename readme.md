@@ -7,4 +7,17 @@
 npm start
 ```
 
+## How to run view.py
+
+```
+first
+pip3 install flask
+
+second
+pip3 install flask_sqlalchemy
+
+third
+python3 view.py
+```
+
 
