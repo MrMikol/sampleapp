@@ -1,3 +1,49 @@
+
+#signup-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+#login-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+#SignUp-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+#LogIn-button:hover {
+  background: lightseagreen;
+  color: black;
+  border-radius: 24px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .25px;
+}
+
+
 header {
     background-color: lightcoral;
     color: white;
@@ -39,6 +85,7 @@ body {
 }
 
 
+
 .card {
   
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -53,4 +100,14 @@ body {
 
 .container {
   padding: 2px 16px;
+=======
+#sample-map {
+  align-items: center;
+  height: 300px;
+  width: 25%;
+
+}
+
+div {
+  align-items: center;
 }
